@@ -1,0 +1,194 @@
+@media (max-width: 34em) {
+  .menu-nav {
+    background-color: rgba(255, 255, 255, 0.692) !important;
+    backdrop-filter: blur(8px) !important;
+  }
+
+  .nav-link {
+    font-size: 1.2rem !important;
+    margin: 1rem;
+    border-bottom: 0.5px solid #c29958 !important;
+  }
+  .nav-link:hover {
+    color: #c29958 !important;
+    border-bottom: 0.5px solid black !important;
+    text-decoration: none;
+    text-underline-offset: 0;
+  }
+  .nav-icon {
+    padding: 2rem;
+    justify-content: center;
+  }
+  .icon-menu {
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+  }
+  .price {
+    font-size: 1rem;
+  }
+  /* //////////HEADER ///////*/
+  .header1-content {
+    margin-top: 8rem !important;
+    /* background-color: RED; */
+  }
+  .top-brand {
+    margin-right: 4rem;
+  }
+  .header1 h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 4rem;
+  }
+  .header1 h5 {
+    font-size: 1rem;
+    margin-left: 4rem;
+  }
+  .header2-content {
+    margin-top: 7rem !important;
+  }
+  .header2-txt {
+    font-size: 2rem;
+
+    line-height: 3rem;
+  }
+  .header3-content {
+    margin-top: 4rem !important;
+  }
+  .header3-txt {
+    /* line-height: 3rem; */
+    font-size: 1.6rem !important;
+  }
+  .containers {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .grid-row,
+  .grid-row2,
+  .grid-row3,
+  .grid-row4,
+  .grid-row5,
+  .footer-grid,
+  .ftg-2 {
+    grid-template-columns: 1fr !important;
+    padding: 0 1rem;
+  }
+  /* ARRIVAL SECTION */
+
+  .feedback-form {
+    width: 90%;
+  }
+  /* MODAL STYLING */
+  .grid-modal {
+    grid-template-columns: 1fr;
+  }
+  .cancel-modal {
+    margin: 0.8rem 1rem 0 20rem;
+  }
+  /* ///BLOG */
+  .blog-post {
+    padding: 0 !important;
+  }
+  .blog-post h6 {
+    font-size: 1rem;
+  }
+  .blog-post small {
+    font-size: 15px !important;
+  }
+}
+/* ***********************  */
+/* BELOW 1200PX (LANDSCAPE TABLET) */
+/* **************** ********/
+@media (max-width: 75em) {
+  .menu-nav {
+    background-color: rgba(255, 255, 255, 0.692) !important;
+    backdrop-filter: blur(8px) !important;
+  }
+
+  .nav-link {
+    font-size: 1.2rem !important;
+    margin: 1rem;
+    border-bottom: 0.5px solid #c29958 !important;
+  }
+  .nav-link:hover {
+    color: #c29958 !important;
+    border-bottom: 0.5px solid black !important;
+    text-decoration: none;
+    text-underline-offset: 0;
+  }
+  .nav-icon {
+    padding: 2rem;
+    justify-content: center;
+  }
+  .icon-menu {
+    width: 1.4rem !important;
+    height: 1.4rem !important;
+  }
+  .price {
+    font-size: 1rem;
+  }
+  /* //////////HEADER ///////*/
+  .header1,
+  .header2,
+  .header3 {
+    height: 60vh;
+  }
+  .header1-content {
+    margin-top: 12rem;
+    /* background-color: RED; */
+  }
+  .top-brand {
+    margin-right: 4rem;
+  }
+  .header1 h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 4rem;
+  }
+  .header1 h5 {
+    font-size: 1rem;
+    margin-left: 4rem;
+  }
+  .header2-content {
+    margin-top: 14rem;
+    /* background-color: red; */
+  }
+  .header2-txt {
+    font-size: 2rem;
+
+    line-height: 3rem;
+  }
+  .header3-content {
+    margin-top: 10rem;
+  }
+  .header3-txt {
+    line-height: 3rem;
+    font-size: 1.8rem;
+  }
+  .containers {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .grid-row,
+  .grid-row2,
+  .grid-row3,
+  .grid-row4,
+  .grid-row5,
+  .footer-grid,
+  .ftg-2 {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1.2rem;
+  }
+  .view-more {
+    font-size: 1.2rem;
+  }
+  /* ///BLOG */
+  .blog-post {
+    padding: 0.5rem;
+  }
+  .blog-post h6 {
+    font-size: 1.4rem;
+  }
+  .blog-post small {
+    font-size: 17.5px;
+  }
+}

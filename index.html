@@ -1,0 +1,2613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vogue Luxe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <!-- custom link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="background-color: white"
+    >
+      <div class="container-fluid">
+        <div class="ms-3 logo-header">
+          <a href="#" class="text-decoration-none text-dark">
+            Vogue<span style="color: #c29958">Luxe</span>
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          style="border: 0px"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: rgba(0, 0, 0, 1)"
+          >
+            <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+          </svg>
+        </button>
+        <div
+          class="offcanvas offcanvas-end menu-nav"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+              <a class="navbar-brand nav-heading" href="#">
+                Vogue<span style="color: #c29958">Luxe</span></a
+              >
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-li links text-center text-md-left"
+                  aria-current="page"
+                  href="index.html"
+                >
+                  Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-li links text-center text-md-left"
+                  aria-current="page"
+                  href="about-us.html"
+                  >About Us</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-li links text-center text-md-left"
+                  aria-current="page"
+                  href="contact-us.html"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-li links text-center text-md-left"
+                  p[]
+                  aria-current="page"
+                  href="sales.html"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex align-item-center nav-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search icon-menu"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                />
+              </svg>
+              <!-- like icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-heart icon-menu"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+                />
+              </svg>
+              <!-- cart icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="17"
+                fill="currentColor"
+                class="bi bi-cart2 icon-menu"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                />
+              </svg>
+              <!--  -->
+              <strong class="text-center text-md-left price">$0.00</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--===== HEADER===== -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active header1">
+          <!--  -->
+          <div class="header1-content">
+            <p class="top-brand">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill=" #52567d"
+                  class="bi bi-patch-check-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"
+                  />
+                </svg> </span
+              >Top Brand
+            </p>
+            <h1>Best Bags <br />2024</h1>
+            <h5>Discover Now +</h5>
+          </div>
+        </div>
+        <div class="carousel-item header3">
+          <div class="header3-content">
+            <h4 class="header3-txt">
+              Step into a world where every stitch tells a story, where luxury
+              <br />
+              transcends time, and where your style finds its true essence.
+              <br />
+              Welcome to Vogue Luxe – where Elegance <br />Meets Style at its
+              finest!"
+            </h4>
+          </div>
+        </div>
+        <div class="carousel-item header2">
+          <!--  -->
+          <div class="header2-content">
+            <h4 class="col-sm-12 header2-txt">
+              Discover the pinnacle of luxury fashion at Vogue
+              <br />Luxe – your gateway to timeless sophistication <br />
+              and unparalleled glamour.
+            </h4>
+          </div>
+        </div>
+
+        <!--  -->
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon arrow-direc"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon arrow-direc"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br /><br /><br /><br /><br />
+    <!--==== POLICY SECTION  -->
+    <div class="containers policy-box">
+      <div class="row">
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center justify-content-sm-start mb-5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24 "
+            class="detail-icon"
+          >
+            <path
+              d="M3.414 13.778 2 15.192l4.949 2.121 2.122 4.95 1.414-1.414-.707-3.536L13.091 14l3.61 7.704 1.339-1.339-1.19-10.123 2.828-2.829a2 2 0 1 0-2.828-2.828l-2.903 2.903L3.824 6.297 2.559 7.563l7.644 3.67-3.253 3.253-3.536-.708z"
+            ></path>
+          </svg>
+          <div class="ms-2">
+            <p>
+              <strong>Free Shipping</strong> <br />
+              Free shipping all order
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center justify-content-sm-start mb-5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            class="detail-icon"
+          >
+            <path
+              d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 13a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm2.75-7.17A5 5 0 0 0 13 7.1v-3a7.94 7.94 0 0 1 3.9 1.62zM11 7.1a5 5 0 0 0-1.75.73L7.1 5.69A7.94 7.94 0 0 1 11 4.07zM7.83 9.25A5 5 0 0 0 7.1 11h-3a7.94 7.94 0 0 1 1.59-3.9zM7.1 13a5 5 0 0 0 .73 1.75L5.69 16.9A7.94 7.94 0 0 1 4.07 13zm2.15 3.17a5 5 0 0 0 1.75.73v3a7.94 7.94 0 0 1-3.9-1.62zm3.75.73a5 5 0 0 0 1.75-.73l2.15 2.14a7.94 7.94 0 0 1-3.9 1.62zm3.17-2.15A5 5 0 0 0 16.9 13h3a7.94 7.94 0 0 1-1.62 3.9zM16.9 11a5 5 0 0 0-.73-1.75l2.14-2.15a7.94 7.94 0 0 1 1.62 3.9z"
+            ></path>
+          </svg>
+          <div class="ms-2">
+            <p>
+              <strong>Support 24/7</strong> <br />
+              Support 24 hours a day
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center justify-content-sm-start mb-5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            class="detail-icon"
+          >
+            <path
+              d="M11 7.05V4a1 1 0 0 0-1-1 1 1 0 0 0-.7.29l-7 7a1 1 0 0 0 0 1.42l7 7A1 1 0 0 0 11 18v-3.1h.85a10.89 10.89 0 0 1 8.36 3.72 1 1 0 0 0 1.11.35A1 1 0 0 0 22 18c0-9.12-8.08-10.68-11-10.95zm.85 5.83a14.74 14.74 0 0 0-2 .13A1 1 0 0 0 9 14v1.59L4.42 11 9 6.41V8a1 1 0 0 0 1 1c.91 0 8.11.2 9.67 6.43a13.07 13.07 0 0 0-7.82-2.55z"
+            ></path>
+          </svg>
+          <div class="ms-2">
+            <p>
+              <strong>Money Return</strong> <br />
+              30 days for free return
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div
+          class="col-sm-12 col-md-3 d-flex justify-content-center justify-content-sm-start mb-5"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            fill="currentColor"
+            class="bi bi-credit-card-2-front detail-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"
+            />
+            <path
+              d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+          <div class="ms-2">
+            <p>
+              <strong>Money Return</strong> <br />
+              30 days for free return
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+
+    <!-- TYPE TEXT -->
+    <div class="col-sm-12 text-center">
+      <div class="text-typing-box">
+        <div id="text" class="typing-text"></div>
+      </div>
+      <p class="py-4">Add our products to weekly lineup</p>
+    </div>
+    <br />
+
+    <!-- LIST OF ITEMS -->
+    <div class="containers">
+      <nav class="bg-tab-nav">
+        <div
+          class="nav nav-tabs justify-content-center tab-nav"
+          id="nav-tab"
+          role="tablist"
+        >
+          <button
+            class="nav-link active tab-nav_link"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+          >
+            Bags
+          </button>
+          <button
+            class="nav-link mx-2 tab-nav_link"
+            id="nav-profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-profile"
+            type="button"
+            role="tab"
+            aria-controls="nav-profile"
+            aria-selected="false"
+          >
+            Clothes
+          </button>
+          <button
+            class="nav-link tab-nav_link"
+            id="nav-contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-contact"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="false"
+          >
+            Shoes
+          </button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+          tabindex="0"
+        >
+          <div class="grid-row">
+            <div class="bag-product1 bag-effect style-product_reuse">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img src="img/blackag.jpg" alt="" width="100%" />
+                        <div class="product-info">
+                          <h4>BRIGITTE BORDEUX</h4>
+                          he brand offers feminine designs delivering stylish
+                          separates and statement dresses which has since
+                          evolved into a full ready-to-wear collection in which
+                          every item is a vital part of... <br />
+                          <br />
+                          <strong>Price: $30.00</strong> <br />
+                          <del>$50.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- ///////BAG2////// -->
+            <div class="bag-product2 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal1"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img src="img/bafgs.jpg" alt="" width="100%" />
+                        <div class="product-info">
+                          <h4>BRIGITTE BORDEUX</h4>
+                          he brand offers feminine designs delivering stylish
+                          separates and statement dresses which has since
+                          evolved into a full ready-to-wear collection in which
+                          every item is a vital part of... <br />
+                          <br />
+                          <strong>Price: $30.00</strong> <br />
+                          <del>$50.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- ///////BAG3////// -->
+
+            <div class="bag-product3 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal3"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img src="img/blue.jpg" alt="" width="100%" />
+                        <div class="product-info">
+                          <h4>BRIGITTE BORDEUX</h4>
+                          he brand offers feminine designs delivering stylish
+                          separates and statement dresses which has since
+                          evolved into a full ready-to-wear collection in which
+                          every item is a vital part of... <br />
+                          <br />
+                          <strong>Price: $30.00</strong> <br />
+                          <del>$50.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- ///////BAG4////// -->
+
+            <div class="bag-product4 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal4"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/pexels-vie-studio-8148587.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>BRIGITTE BORDEUX</h4>
+                          he brand offers feminine designs delivering stylish
+                          separates and statement dresses which has since
+                          evolved into a full ready-to-wear collection in which
+                          every item is a vital part of... <br />
+                          <br />
+                          <strong>Price: $30.00</strong> <br />
+                          <del>$50.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-profile"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+          tabindex="0"
+        >
+          <div class="grid-row">
+            <div class="cloth-product1 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal5"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/green-front-sweater.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Apparel Line</h4>
+                          What originated as a concept has blossomed into a
+                          complete ready-to-wear collection. Each garment within
+                          this line plays a pivotal role, adding its unique
+                          allure and panache to contemporary fashion. <br />
+                          <br />
+                          <strong>Price: $50.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <div class="cloth-product2 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal6"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal6"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/pexels-mart-production-8217415.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Apparel Line</h4>
+                          What originated as a concept has blossomed into a
+                          complete ready-to-wear collection. Each garment within
+                          this line plays a pivotal role, adding its unique
+                          allure and panache to contemporary fashion. <br />
+                          <br />
+                          <strong>Price: $50.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <div class="cloth-product3 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal5"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal5"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/green-front-sweater.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Apparel Line</h4>
+                          What originated as a concept has blossomed into a
+                          complete ready-to-wear collection. Each garment within
+                          this line plays a pivotal role, adding its unique
+                          allure and panache to contemporary fashion. <br />
+                          <br />
+                          <strong>Price: $50.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <div class="cloth-product4 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal8"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal8"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/pexels-mart-production-9558583.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Apparel Line</h4>
+                          What originated as a concept has blossomed into a
+                          complete ready-to-wear collection. Each garment within
+                          this line plays a pivotal role, adding its unique
+                          allure and panache to contemporary fashion. <br />
+                          <br />
+                          <strong>Price: $50.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-contact"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+          tabindex="0"
+        >
+          <div class="grid-row">
+            <div class="shoe-product1 bag-effect style-product_reuse">
+              <!--  -->
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal9"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal9"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/trendest-studio-XZ3EmAIWuz0-unsplash.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Bordeaux Footwear Collection.</h4>
+                          Our brand embodies timeless sophistication, offering a
+                          diverse range of shoes that redefine elegance and
+                          comfort. From classic pumps to modern sneakers, each
+                          pair represents the pinnacle of craftsmanship and
+                          style. <br />
+                          <br />
+                          <strong>Price: $70.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- ///SHOE2 -->
+            <div class="shoe-product2 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal10"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal10"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/pexels-karolina-grabowska-7588168.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Bordeaux Footwear Collection.</h4>
+                          Our brand embodies timeless sophistication, offering a
+                          diverse range of shoes that redefine elegance and
+                          comfort. From classic pumps to modern sneakers, each
+                          pair represents the pinnacle of craftsmanship and
+                          style. <br />
+                          <br />
+                          <strong>Price: $70.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- ///SHOE3 -->
+
+            <div class="shoe-product3 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal11"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal11"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/omar-prestwich-jLEGurepDco-unsplash.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Bordeaux Footwear Collection.</h4>
+                          Our brand embodies timeless sophistication, offering a
+                          diverse range of shoes that redefine elegance and
+                          comfort. From classic pumps to modern sneakers, each
+                          pair represents the pinnacle of craftsmanship and
+                          style. <br />
+                          <br />
+                          <strong>Price: $70.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- ///SHOE4 -->
+
+            <div class="shoe-product4 bag-effect style-product_reuse">
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-bag invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+                />
+              </svg>
+              <!--  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-suit-heart invisible-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+              <!--  -->
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal12"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="currentColor"
+                  class="bi bi-eye invisible-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+                  />
+                  <path
+                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                  />
+                </svg>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal12"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button
+                      type="button"
+                      class="btn-close cancel-modal"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+
+                    <div class="modal-body">
+                      <div class="grid-modal">
+                        <img
+                          src="img/pexels-cottonbro-studio-3737918.jpg"
+                          alt=""
+                          width="100%"
+                        />
+                        <div class="product-info">
+                          <h4>Bordeaux Footwear Collection.</h4>
+                          Our brand embodies timeless sophistication, offering a
+                          diverse range of shoes that redefine elegance and
+                          comfort. From classic pumps to modern sneakers, each
+                          pair represents the pinnacle of craftsmanship and
+                          style. <br />
+                          <br />
+                          <strong>Price: $70.00</strong> <br />
+                          <del>$80.00</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <br />
+    <!-- TYPE TEXT -->
+    <div class="col-sm-12 text-center">
+      <div class="text-typing-box">
+        <div class="typing-text">FEATURED PRODUCTS</div>
+      </div>
+      <p class="py-4">Add our products to weekly lineup</p>
+    </div>
+
+    <br /><br /><br />
+    <!-- feature product -->
+    <div class="containers">
+      <div class="grid-row2">
+        <div class="feature-product1 bag-effect feature-box">
+          <!--  -->
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal13"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal13"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img src="img/light.jpg" alt="" width="100%" />
+                    <div class="product-info">
+                      <h4>Apparel Line</h4>
+                      What originated as a concept has blossomed into a complete
+                      ready-to-wear collection. Each garment within this line
+                      plays a pivotal role, adding its unique allure and panache
+                      to contemporary fashion. <br />
+                      <br />
+                      <strong>Price: $50.00</strong> <br />
+                      <del>$80.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="feature-product2 bag-effect feature-box">
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal14"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal14"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img src="img/reach.jpg" alt="" width="100%" />
+                    <div class="product-info">
+                      <h4>Apparel Line</h4>
+                      What originated as a concept has blossomed into a complete
+                      ready-to-wear collection. Each garment within this line
+                      plays a pivotal role, adding its unique allure and panache
+                      to contemporary fashion. <br />
+                      <br />
+                      <strong>Price: $50.00</strong> <br />
+                      <del>$80.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="feature-product3 bag-effect feature-box">
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal15"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal15"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img src="img/blackag.jpg" alt="" width="100%" />
+                    <div class="product-info">
+                      <h4>BRIGITTE BORDEUX</h4>
+                      he brand offers feminine designs delivering stylish
+                      separates and statement dresses which has since evolved
+                      into a full ready-to-wear collection in which every item
+                      is a vital part of... <br />
+                      <br />
+                      <strong>Price: $30.00</strong> <br />
+                      <del>$50.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feature-product4 bag-effect feature-box">
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal16"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal16"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img
+                      src="img/mediamodifier-7cERndkOyDw-unsplash.jpg"
+                      alt=""
+                      width="100%"
+                    />
+                    <div class="product-info">
+                      <h4>Apparel Line</h4>
+                      What originated as a concept has blossomed into a complete
+                      ready-to-wear collection. Each garment within this line
+                      plays a pivotal role, adding its unique allure and panache
+                      to contemporary fashion. <br />
+                      <br />
+                      <strong>Price: $50.00</strong> <br />
+                      <del>$80.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="feature-product5 bag-effect feature-box">
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal17"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal17"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img
+                      src="img/trendest-studio-XZ3EmAIWuz0-unsplash.jpg"
+                      alt=""
+                      width="100%"
+                    />
+                    <div class="product-info">
+                      <h4>Bordeaux Footwear Collection.</h4>
+                      Our brand embodies timeless sophistication, offering a
+                      diverse range of shoes that redefine elegance and comfort.
+                      From classic pumps to modern sneakers, each pair
+                      represents the pinnacle of craftsmanship and style. <br />
+                      <br />
+                      <strong>Price: $70.00</strong> <br />
+                      <del>$80.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="feature-product6 bag-effect feature-box">
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal18"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal18"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img
+                      src="img/pexels-pnw-production-9218538.jpg"
+                      alt=""
+                      width="100%"
+                    />
+                    <div class="product-info">
+                      <h4>Apparel Line</h4>
+                      What originated as a concept has blossomed into a complete
+                      ready-to-wear collection. Each garment within this line
+                      plays a pivotal role, adding its unique allure and panache
+                      to contemporary fashion. <br />
+                      <br />
+                      <strong>Price: $50.00</strong> <br />
+                      <del>$80.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="feature-product7 bag-effect feature-box">
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal19"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal19"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img
+                      src="img/brown-man-s-leather-derby-shoes.jpg"
+                      alt=""
+                      width="100%"
+                    />
+                    <div class="product-info">
+                      <h4>Bordeaux Footwear Collection.</h4>
+                      Our brand embodies timeless sophistication, offering a
+                      diverse range of shoes that redefine elegance and comfort.
+                      From classic pumps to modern sneakers, each pair
+                      represents the pinnacle of craftsmanship and style. <br />
+                      <br />
+                      <strong>Price: $70.00</strong> <br />
+                      <del>$80.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="feature-product8 bag-effect feature-box">
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-bag invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+            />
+          </svg>
+          <!--  -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            fill="currentColor"
+            class="bi bi-suit-heart invisible-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+            />
+          </svg>
+          <!--  -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal20"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-eye invisible-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"
+              />
+              <path
+                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+              />
+            </svg>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal20"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close cancel-modal"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+
+                <div class="modal-body">
+                  <div class="grid-modal">
+                    <img src="img/sneakers-shoes.jpg" alt="" width="100%" />
+                    <div class="product-info">
+                      <h4>Bordeaux Footwear Collection.</h4>
+                      Our brand embodies timeless sophistication, offering a
+                      diverse range of shoes that redefine elegance and comfort.
+                      From classic pumps to modern sneakers, each pair
+                      represents the pinnacle of craftsmanship and style. <br />
+                      <br />
+                      <strong>Price: $70.00</strong> <br />
+                      <del>$80.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <div class="col-sm-12 text-center">
+      <strong class="view-more">View More</strong>
+    </div>
+    <br /><br /><br />
+
+    <!-- AD -->
+    <br /><br /><br /><br />
+    <div class="containers">
+      <div class="col-sm-12">
+        <img
+          src="img/promo-min_1920x.webp"
+          alt=" ad"
+          width="100%"
+          class="ads-img"
+        />
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <!-- discover  -->
+    <div class="containers">
+      <div class="grid-row3" data-aos="zoom-in">
+        <div class="description-box">
+          <h3>WE LOVE BAGS</h3>
+          <small>
+            A professional-looking tote for your everyday needs! This Wilsons
+            Leather tote has a canvas look with genuine leather trim and a
+            structured silhouette. Its shiny gold-tone hardware and two-tone
+            design give it extra fashionable flair.
+          </small>
+          <h5>Discover More +</h5>
+        </div>
+        <div class="">
+          <img
+            src="img/loolbook-min_585x420.webp"
+            alt=" a man carry a pack bag"
+            style="width: 100%; height: 52vh; object-fit: cover"
+          />
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <br /><br />
+
+    <!-- ARRIVAL SECTION -->
+    <div class="col-sm-12 text-center">
+      <div class="text-typing-box">
+        <div class="typing-text">NEW ARRIVALS</div>
+      </div>
+      <p class="py-4">Add our products to weekly lineup</p>
+    </div>
+    <!--  -->
+
+    <div class="containers">
+      <div class="grid-row4 arrival-box">
+        <div class="arrival1 feature-box"></div>
+        <div class="arrival2 feature-box"></div>
+        <div class="arrival3 feature-box"></div>
+        <div class="arrival4 feature-box"></div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <div class="col-sm-12 text-center">
+      <div class="text-typing-box">
+        <div class="typing-text">BLOG POSTS</div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <div class="containers">
+      <div class="grid-row5">
+        <div class="blog1" data-aos="fade-up" data-aos-duration="3000">
+          <img
+            src="img/img_blogs-5-min_d7c43e5e-eed6-40f8-96bd-f9d984a816b5_480x.webp"
+            alt=""
+            style="width: 100%"
+          />
+          <div class="blog-post text-center py-4 px-3-">
+            <h6>Lorem Ipsum is Simply Dummy</h6>
+            <div class="">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar-week"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                  />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  />
+                </svg>
+              </span>
+              <small> Jan-1 </small>
+            </div>
+            <br />
+            <small>
+              Lorem Ipsum is simply dummy text of the printing <br />
+              and typesetting industry. Lorem Ipsum has been t...
+            </small>
+          </div>
+        </div>
+        <div class="blog1" data-aos="fade-up" data-aos-duration="3000">
+          <img src="img/img_blogs-3-min_480x.webp" alt="" style="width: 100%" />
+          <div class="blog-post text-center py-4 px-3-">
+            <h6>Need A New Bag?</h6>
+            <div class="">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar-week"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                  />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  />
+                </svg>
+              </span>
+              <small> Jan-1 </small>
+            </div>
+            <br />
+            <small>
+              Lorem Ipsum is simply dummy text of the printing <br />
+              and typesetting industry. Lorem Ipsum has been t...
+            </small>
+          </div>
+        </div>
+        <div class="blog1" data-aos="fade-up" data-aos-duration="3000">
+          <img
+            src="img/img_blogs-4-min_dd127a4f-e1e4-4281-87f1-5be4579c8d4a_480x.webp"
+            alt=""
+            style="width: 100%"
+          />
+          <div class="blog-post text-center py-4 px-3-">
+            <h6>What first Trio Bag</h6>
+            <div class="">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar-week"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"
+                  />
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                  />
+                </svg>
+              </span>
+              <small> Jan-1 </small>
+            </div>
+            <br />
+            <small>
+              Lorem Ipsum is simply dummy text of the printing <br />
+              and typesetting industry. Lorem Ipsum has been t...
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <br /><br />
+    <footer data-aos="fade-up" data-aos-duration="3000">
+      <div class="containers footer-box">
+        <div class="footer-grid">
+          <div class="ftc-1 mb-5">
+            <div class="ms-3 logo-header">
+              <a href="#" class="text-decoration-none text-dark">
+                Vogue<span style="color: #c29958">Luxe</span>
+              </a>
+            </div>
+            <p
+              class="my-3 lh-5 d-flex justify-content-center justify-content-sm-start"
+            >
+              We are a team of designers and <br />
+              developers that create high quality <br />wordpress, shopify,
+              Opencart
+            </p>
+          </div>
+          <!--  -->
+          <div class="ftc-2 mb-5">
+            <h5 class="d-flex justify-content-center justify-content-sm-start">
+              Contact Us
+            </h5>
+            <p class="d-flex justify-content-center justify-content-sm-start">
+              4710-4890 Breckinridge USA
+            </p>
+            <p class="d-flex justify-content-center justify-content-sm-start">
+              demo@yourdomain.com
+            </p>
+            <p class="d-flex justify-content-center justify-content-sm-start">
+              (012) 800 456 789-987
+            </p>
+          </div>
+          <!--  -->
+          <div class="ftc-3">
+            <h5 class="d-flex justify-content-center justify-content-sm-start">
+              Information
+            </h5>
+            <div class="d-flex justify-content-center justify-content-sm-start">
+              <p>About Us</p>
+              <p class="ms-3">Delivery Information</p>
+            </div>
+            <div class="d-flex justify-content-center justify-content-sm-start">
+              <p>Privet Policy</p>
+              <p class="ms-3">Terms & Conditions</p>
+            </div>
+            <div class="d-flex justify-content-center justify-content-sm-start">
+              <p>Contact Us</p>
+              <p class="ms-3">Site Map</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="ftc-4">
+            <h5 class="d-flex justify-content-center justify-content-sm-start">
+              Follow
+            </h5>
+            <div
+              class="social-icons d-flex align-item-center my-3 justify-content-center justify-content-sm-start"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="#908079"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+                class="social-icon"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                />
+              </svg>
+              <!-- icon2  -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="#908079"
+                class="bi bi-twitter"
+                viewBox="0 0 16 16"
+                class="social-icon"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"
+                />
+              </svg>
+              <!-- icon3 -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="#908079"
+                class="bi bi-instagram"
+                viewBox="0 0 16 16"
+                class="social-icon"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                />
+              </svg>
+              <!-- icon 4 -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="#908079"
+                class="bi bi-youtube"
+                viewBox="0 0 16 16"
+                class="social-icon"
+              >
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="ftg-2">
+          <div class="my-5 inbox-msg">
+            <h6 class="">Signup for newsletter</h6>
+            <div class="d-flex feedback-form">
+              <input type="text" placeholder="Enter your email address" />
+              <button class="btn-sub">Subscribe</button>
+            </div>
+          </div>
+          <div class="d-flex align-item-center justify-content-center">
+            <div class="payment-card">
+              <img src="img/payment.webp" alt="payment cards" width="100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="text-center">
+      <p>
+        © 2024 Vogue<span style="color: #c29958">Luxe</span> Made with ❤ by Paul
+      </p>
+    </div>
+    <!-- bootstrap link -->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
